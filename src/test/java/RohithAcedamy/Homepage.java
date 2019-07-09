@@ -3,6 +3,7 @@ package RohithAcedamy;
 import java.io.IOException;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
 import Resources.base;
@@ -22,5 +23,6 @@ public class Homepage extends base {
 		pl.email().sendKeys("rohith");
 		pl.pass().sendKeys("password1");
 		pl.submit().click();
+		System.out.println("Login sucessfully done");
 	}
 }
