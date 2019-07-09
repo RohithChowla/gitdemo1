@@ -22,5 +22,7 @@ public class Homepage extends base {
 		pl.email().sendKeys("rohith");
 		pl.pass().sendKeys("password1");
 		pl.submit().click();
+		System.out.println("this is gitstuff1");
+		System.out.println("this step should be appeared in gitdemo");
 	}
 }
